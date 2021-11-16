@@ -33,7 +33,7 @@ deployments:
 dev:
   sync:
     - labelSelector:
-        app: shopwarek8sdevcluster-0d31
+        app: shopwarek8sdevcluster
       excludePaths:
         - .gitignore
         - .gitkeep
@@ -46,7 +46,7 @@ dev:
         restartContainer: false
   ports:
     - labelSelector:
-        app: app-server
+        app: shopwarek8sdevcluster
       reverseForward:
         - port: 9003
           remotePort: 9003
@@ -74,7 +74,7 @@ dev:
     sync: true
     selectors:
       - labelSelector:
-          app: shopwarek8sdevcluster-0d31
+          app: shopwarek8sdevcluster
 hooks:
 - command: "bash"
   os: linux,darwin

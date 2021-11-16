@@ -1,0 +1,1 @@
+{"level":"error","msg":"Error in /api/logs?context=shopware-k8s-dev-cluster\u0026namespace=development\u0026name=app-server-7f5bb44875-wq6kc\u0026container=app-server: container \"app-server\" in pod \"app-server-7f5bb44875-wq6kc\" is waiting to start: trying and failing to pull image","time":"2021-11-16T16:25:35+01:00"}
