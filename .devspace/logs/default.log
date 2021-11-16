@@ -52,3 +52,70 @@
 {"level":"warning","msg":"invalid reference format","time":"2021-11-16T11:50:52+01:00"}
 {"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/:peuRsDH' with engine 'docker'","time":"2021-11-16T11:50:52+01:00"}
 {"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/:peuRsDH: invalid reference format","time":"2021-11-16T11:50:52+01:00"}
+{"level":"fatal","msg":"Unable to create new kubectl client: Error loading kube config, context '' doesn't exist","time":"2021-11-16T12:34:41+01:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-11-16T12:35:50+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T12:35:55+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T12:35:55+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:ipBrOsA' with engine 'docker'","time":"2021-11-16T12:35:55+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:ipBrOsA: Error during image registry authentication: Error response from daemon: Get \"https://shopwarek8sdev.azurecr.io/v2/\": unauthorized: authentication required, visit https://aka.ms/acr/authorization for more information.","time":"2021-11-16T12:35:59+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T12:36:27+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T12:36:27+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:iHeZzvz' with engine 'docker'","time":"2021-11-16T12:36:28+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:iHeZzvz: Error during image registry authentication: Error response from daemon: Get \"https://shopwarek8sdev.azurecr.io/v2/\": unauthorized: authentication required, visit https://aka.ms/acr/authorization for more information.","time":"2021-11-16T12:36:31+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T12:43:32+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T12:43:32+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:BGcTmvX' with engine 'docker'","time":"2021-11-16T12:43:32+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:BGcTmvX: Error during image registry authentication: Error response from daemon: Get \"https://shopwarek8sdev.azurecr.io/v2/\": unauthorized: authentication required, visit https://aka.ms/acr/authorization for more information.","time":"2021-11-16T12:43:35+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T12:46:22+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T12:46:22+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:HrMqeYL' with engine 'docker'","time":"2021-11-16T12:46:24+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:HrMqeYL: Error during image registry authentication: Error response from daemon: Get \"https://shopwarek8sdev.azurecr.io/v2/\": unauthorized: authentication required, visit https://aka.ms/acr/authorization for more information.","time":"2021-11-16T12:46:28+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T12:55:28+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T12:55:28+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:UTktIGo' with engine 'docker'","time":"2021-11-16T12:55:29+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:UTktIGo: Error during image registry authentication: Error response from daemon: Get \"https://shopwarek8sdev.azurecr.io/v2/\": unauthorized: authentication required, visit https://aka.ms/acr/authorization for more information.","time":"2021-11-16T12:55:31+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T13:02:27+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T13:02:27+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:DkhPIYT' with engine 'docker'","time":"2021-11-16T13:02:28+01:00"}
+{"level":"info","msg":"Authentication successful (shopwarek8sdev.azurecr.io)","time":"2021-11-16T13:02:31+01:00"}
+{"level":"info","msg":"Image pushed to registry (shopwarek8sdev.azurecr.io)","time":"2021-11-16T13:13:39+01:00"}
+{"level":"info","msg":"Done processing image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster'","time":"2021-11-16T13:13:39+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T13:13:39+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T13:13:46+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T13:13:47+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T13:23:58+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T13:23:58+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:eoalEOq' with engine 'docker'","time":"2021-11-16T13:23:59+01:00"}
+{"level":"info","msg":"Authentication successful (shopwarek8sdev.azurecr.io)","time":"2021-11-16T13:24:04+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:eoalEOq: The command '/bin/sh -c composer create-project --no-interaction -- shopware/production . \"${SHOPWARE_VERSION}\"' returned a non-zero code: 1","time":"2021-11-16T13:25:28+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T13:26:01+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T13:26:01+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:pGTKegE' with engine 'docker'","time":"2021-11-16T13:26:02+01:00"}
+{"level":"info","msg":"Authentication successful (shopwarek8sdev.azurecr.io)","time":"2021-11-16T13:26:07+01:00"}
+{"level":"info","msg":"Image pushed to registry (shopwarek8sdev.azurecr.io)","time":"2021-11-16T13:26:24+01:00"}
+{"level":"info","msg":"Done processing image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster'","time":"2021-11-16T13:26:24+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T13:26:26+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T13:26:31+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T13:26:31+01:00"}
+{"level":"fatal","msg":"start sync: Error selecting pod: timeout: couldn't find a pod / container in time with label selector: app=app-server","time":"2021-11-16T13:36:31+01:00"}
+{"level":"warning","msg":"\u001b[1;37mAre you using the correct namespace?\u001b[0m","time":"2021-11-16T15:40:25+01:00"}
+{"level":"warning","msg":"Current namespace: '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T15:40:26+01:00"}
+{"level":"warning","msg":"Last    namespace: '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T15:40:26+01:00"}
+{"level":"info","msg":"Use the '\u001b[1;37m-s / --switch-context\u001b[0m' flag to switch to the context and namespace previously used to deploy this project","time":"2021-11-16T15:40:26+01:00"}
+{"level":"info","msg":"Or use the '\u001b[1;37m--no-warn\u001b[0m' flag to ignore this warning","time":"2021-11-16T15:40:26+01:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-11-16T15:40:36+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T15:40:41+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T15:40:41+01:00"}
+{"level":"info","msg":"Created image pull secret default/devspace-auth-shopwarek8sdev-azurecr-io","time":"2021-11-16T15:40:46+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:QzomaQp' with engine 'docker'","time":"2021-11-16T15:40:46+01:00"}
+{"level":"warning","msg":"\u001b[1;37mAre you using the correct namespace?\u001b[0m","time":"2021-11-16T15:40:49+01:00"}
+{"level":"warning","msg":"Current namespace: '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T15:40:49+01:00"}
+{"level":"warning","msg":"Last    namespace: '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T15:40:49+01:00"}
+{"level":"info","msg":"Use the '\u001b[1;37m-s / --switch-context\u001b[0m' flag to switch to the context and namespace previously used to deploy this project","time":"2021-11-16T15:40:49+01:00"}
+{"level":"info","msg":"Or use the '\u001b[1;37m--no-warn\u001b[0m' flag to ignore this warning","time":"2021-11-16T15:40:49+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:QzomaQp: The command '/bin/sh -c composer create-project --no-interaction -- shopware/production . \"${SHOPWARE_VERSION}\"' returned a non-zero code: 1","time":"2021-11-16T15:40:52+01:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-11-16T15:40:59+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T15:41:04+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T15:41:04+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:BqFXrFn' with engine 'docker'","time":"2021-11-16T15:41:05+01:00"}
+{"level":"fatal","msg":"Automatically exit DevSpace, because the user is inactive for 1193h2m43.952s. To disable automatic exiting, run with --inactivity-timeout=0","time":"2021-11-16T15:57:52+01:00"}

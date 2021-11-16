@@ -1,0 +1,20 @@
+{"level":"info","msg":"[0:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:13:47+01:00"}
+{"level":"info","msg":"[2:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:13:47+01:00"}
+{"level":"info","msg":"[1:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:13:47+01:00"}
+Forwarding from 127.0.0.1:8081 -> 8080
+Forwarding from [::1]:8081 -> 8080
+{"level":"info","msg":"[1:ports] Port forwarding started on 8081:8080 (development/adminer-868658f8f5-m6rxf)","time":"2021-11-16T13:13:53+01:00"}
+Forwarding from 127.0.0.1:8025 -> 8025
+Forwarding from [::1]:8025 -> 8025
+{"level":"info","msg":"[2:ports] Port forwarding started on 8025:8025 (development/mailhog-0)","time":"2021-11-16T13:14:08+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ErrImagePull. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:15:00+01:00"}
+{"level":"info","msg":"[2:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:26:31+01:00"}
+{"level":"info","msg":"[1:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:26:31+01:00"}
+{"level":"info","msg":"[0:ports] Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:26:31+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ImagePullBackOff. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:26:33+01:00"}
+Forwarding from 127.0.0.1:8025 -> 8025
+Forwarding from [::1]:8025 -> 8025
+{"level":"info","msg":"[2:ports] Port forwarding started on 8025:8025 (development/mailhog-0)","time":"2021-11-16T13:26:33+01:00"}
+Forwarding from 127.0.0.1:8081 -> 8080
+Forwarding from [::1]:8081 -> 8080
+{"level":"info","msg":"[1:ports] Port forwarding started on 8081:8080 (development/adminer-868658f8f5-m6rxf)","time":"2021-11-16T13:26:33+01:00"}

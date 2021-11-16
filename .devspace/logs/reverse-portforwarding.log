@@ -1,0 +1,4 @@
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:13:47+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ErrImagePull. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:15:00+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:26:31+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ImagePullBackOff. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:26:33+01:00"}
