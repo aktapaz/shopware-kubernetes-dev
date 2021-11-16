@@ -8,7 +8,7 @@ vars:
     default: "7.4"
 images:
   app-server:
-    image: shopwarek8sdev.azurecr.io/devtest
+    image: shopwarek8sdev.azurecr.io/
     preferSyncOverRebuild: true
     injectRestartHelper: true
     dockerfile: ./docker/Dockerfile

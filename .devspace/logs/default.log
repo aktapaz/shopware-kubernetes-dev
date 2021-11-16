@@ -8,3 +8,47 @@
 {"level":"warning","msg":"invalid reference format","time":"2021-11-16T10:57:11+01:00"}
 {"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T10:57:11+01:00"}
 {"level":"fatal","msg":"create builder: Error creating kaniko builder: create pull secret: invalid reference format","time":"2021-11-16T10:57:11+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:22:31+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:22:31+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T11:22:33+01:00"}
+{"level":"info","msg":"Created image pull secret development/devspace-auth-shopwarek8sdev-azurecr-io","time":"2021-11-16T11:22:33+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/devtest:ViMUHAX' with engine 'kaniko'","time":"2021-11-16T11:22:33+01:00"}
+{"level":"info","msg":"Uploaded files to container","time":"2021-11-16T11:22:42+01:00"}
+{"level":"info","msg":"Build pod has started","time":"2021-11-16T11:22:49+01:00"}
+{"level":"info","msg":"Printing logs of pod:container \u001b[1;37mdevspace-build-kaniko-5lqs7\u001b[0m:\u001b[1;37mkaniko\u001b[0m","time":"2021-11-16T11:22:49+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/devtest:ViMUHAX: error building image (Exit Code 1)","time":"2021-11-16T11:22:50+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:32:05+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:32:05+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T11:32:06+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/devtest:VnKfAZW' with engine 'kaniko'","time":"2021-11-16T11:32:06+01:00"}
+{"level":"info","msg":"Uploaded files to container","time":"2021-11-16T11:32:14+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/devtest:VnKfAZW: waiting for kaniko: kaniko pod development/devspace-build-kaniko-fkjd7 has unexpectedly exited with code 1: E1116 10:32:21.676769       1 aws_credentials.go:77] while getting AWS credentials NoCredentialProviders: no valid providers in chain. Deprecated.\n\tFor verbose messaging see aws.Config.CredentialsChainVerboseErrors\nerror checking push permissions -- make sure you entered the correct tag name, and that you are authenticated correctly, and try again: checking push permission for \"shopwarek8sdev.azurecr.io/devtest:VnKfAZW\": creating push check transport for shopwarek8sdev.azurecr.io failed: GET https://shopwarek8sdev.azurecr.io/oauth2/token?scope=repository%3Adevtest%3Apush%2Cpull\u0026service=shopwarek8sdev.azurecr.io: UNAUTHORIZED: authentication required, visit https://aka.ms/acr/authorization for more information.\n","time":"2021-11-16T11:32:23+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:33:13+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:33:13+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T11:33:13+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/devtest:CwgyXQF' with engine 'kaniko'","time":"2021-11-16T11:33:14+01:00"}
+{"level":"info","msg":"Uploaded files to container","time":"2021-11-16T11:33:19+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/devtest:CwgyXQF: waiting for kaniko: kaniko pod development/devspace-build-kaniko-h4f5b has unexpectedly exited with code 1: E1116 10:33:21.914715       1 aws_credentials.go:77] while getting AWS credentials NoCredentialProviders: no valid providers in chain. Deprecated.\n\tFor verbose messaging see aws.Config.CredentialsChainVerboseErrors\nerror checking push permissions -- make sure you entered the correct tag name, and that you are authenticated correctly, and try again: checking push permission for \"shopwarek8sdev.azurecr.io/devtest:CwgyXQF\": creating push check transport for shopwarek8sdev.azurecr.io failed: GET https://shopwarek8sdev.azurecr.io/oauth2/token?scope=repository%3Adevtest%3Apush%2Cpull\u0026service=shopwarek8sdev.azurecr.io: UNAUTHORIZED: authentication required, visit https://aka.ms/acr/authorization for more information.\n","time":"2021-11-16T11:33:23+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:37:14+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:37:14+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T11:37:15+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/devtest:jJIpfdE' with engine 'kaniko'","time":"2021-11-16T11:37:15+01:00"}
+{"level":"info","msg":"Uploaded files to container","time":"2021-11-16T11:37:20+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/devtest:jJIpfdE: waiting for kaniko: kaniko pod development/devspace-build-kaniko-t6z76 has unexpectedly exited with code 1: E1116 10:37:23.722823       1 aws_credentials.go:77] while getting AWS credentials NoCredentialProviders: no valid providers in chain. Deprecated.\n\tFor verbose messaging see aws.Config.CredentialsChainVerboseErrors\nerror checking push permissions -- make sure you entered the correct tag name, and that you are authenticated correctly, and try again: checking push permission for \"shopwarek8sdev.azurecr.io/devtest:jJIpfdE\": creating push check transport for shopwarek8sdev.azurecr.io failed: GET https://shopwarek8sdev.azurecr.io/oauth2/token?scope=repository%3Adevtest%3Apush%2Cpull\u0026service=shopwarek8sdev.azurecr.io: UNAUTHORIZED: authentication required, visit https://aka.ms/acr/authorization for more information.\n","time":"2021-11-16T11:37:25+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:40:01+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:40:01+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T11:40:01+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/devtest:fajAwpA' with engine 'kaniko'","time":"2021-11-16T11:40:02+01:00"}
+{"level":"info","msg":"Uploaded files to container","time":"2021-11-16T11:40:07+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/devtest:fajAwpA: waiting for kaniko: kaniko pod development/devspace-build-kaniko-qv4pc has unexpectedly exited with code 1: E1116 10:40:09.824095       1 aws_credentials.go:77] while getting AWS credentials NoCredentialProviders: no valid providers in chain. Deprecated.\n\tFor verbose messaging see aws.Config.CredentialsChainVerboseErrors\nerror checking push permissions -- make sure you entered the correct tag name, and that you are authenticated correctly, and try again: checking push permission for \"shopwarek8sdev.azurecr.io/devtest:fajAwpA\": creating push check transport for shopwarek8sdev.azurecr.io failed: GET https://shopwarek8sdev.azurecr.io/oauth2/token?scope=repository%3Adevtest%3Apush%2Cpull\u0026service=shopwarek8sdev.azurecr.io: UNAUTHORIZED: authentication required, visit https://aka.ms/acr/authorization for more information.\n","time":"2021-11-16T11:40:11+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T11:47:02+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T11:47:02+01:00"}
+{"level":"warning","msg":"invalid reference format","time":"2021-11-16T11:47:02+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/:JvUVXFE' with engine 'docker'","time":"2021-11-16T11:47:02+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/:JvUVXFE: invalid reference format","time":"2021-11-16T11:47:02+01:00"}
+{"level":"warning","msg":"Deploying into the 'default' namespace is usually not a good idea as this namespace cannot be deleted\n","time":"2021-11-16T11:50:47+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdefault\u001b[0m'","time":"2021-11-16T11:50:52+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mminikube\u001b[0m'","time":"2021-11-16T11:50:52+01:00"}
+{"level":"warning","msg":"invalid reference format","time":"2021-11-16T11:50:52+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/:peuRsDH' with engine 'docker'","time":"2021-11-16T11:50:52+01:00"}
+{"level":"fatal","msg":"error building image shopwarek8sdev.azurecr.io/:peuRsDH: invalid reference format","time":"2021-11-16T11:50:52+01:00"}
