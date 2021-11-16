@@ -119,3 +119,41 @@
 {"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T15:41:04+01:00"}
 {"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:BqFXrFn' with engine 'docker'","time":"2021-11-16T15:41:05+01:00"}
 {"level":"fatal","msg":"Automatically exit DevSpace, because the user is inactive for 1193h2m43.952s. To disable automatic exiting, run with --inactivity-timeout=0","time":"2021-11-16T15:57:52+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T16:24:57+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T16:24:57+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:UatArkM' with engine 'docker'","time":"2021-11-16T16:24:58+01:00"}
+{"level":"info","msg":"Skip image push for shopwarek8sdev.azurecr.io/shopwarek8sdevcluster","time":"2021-11-16T16:24:59+01:00"}
+{"level":"info","msg":"Done processing image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster'","time":"2021-11-16T16:24:59+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T16:25:00+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T16:25:04+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T16:25:04+01:00"}
+{"level":"fatal","msg":"Unable to start portforwarding: Error selecting pod: timeout: couldn't find a pod / container in time with label selector: app=app-server","time":"2021-11-16T16:35:04+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T16:35:06+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T16:35:06+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:qkXvijx' with engine 'docker'","time":"2021-11-16T16:35:06+01:00"}
+{"level":"info","msg":"Skip image push for shopwarek8sdev.azurecr.io/shopwarek8sdevcluster","time":"2021-11-16T16:35:07+01:00"}
+{"level":"info","msg":"Done processing image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster'","time":"2021-11-16T16:35:07+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T16:35:09+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T16:35:12+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T16:35:12+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T16:37:01+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T16:37:01+01:00"}
+{"level":"info","msg":"Skip building image 'app-server'","time":"2021-11-16T16:37:01+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T16:37:02+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T16:37:05+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T16:37:05+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T20:04:57+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T20:04:57+01:00"}
+{"level":"info","msg":"Skip building image 'app-server'","time":"2021-11-16T20:04:57+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T20:04:59+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T20:05:01+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T20:05:01+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T20:09:40+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T20:09:40+01:00"}
+{"level":"info","msg":"Building image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster:FaBtdrd' with engine 'docker'","time":"2021-11-16T20:09:41+01:00"}
+{"level":"info","msg":"Authentication successful (shopwarek8sdev.azurecr.io)","time":"2021-11-16T20:09:42+01:00"}
+{"level":"info","msg":"Image pushed to registry (shopwarek8sdev.azurecr.io)","time":"2021-11-16T20:09:46+01:00"}
+{"level":"info","msg":"Done processing image 'shopwarek8sdev.azurecr.io/shopwarek8sdevcluster'","time":"2021-11-16T20:09:46+01:00"}
+{"level":"info","msg":"Render manifests with 'kustomize build kubernetes/'","time":"2021-11-16T20:09:47+01:00"}
+{"level":"info","msg":"Successfully deployed shopware6-dev with kubectl","time":"2021-11-16T20:09:49+01:00"}
+{"level":"info","msg":"DevSpace UI available at: \u001b[1;37mhttp://localhost:8090\u001b[0m","time":"2021-11-16T20:09:49+01:00"}

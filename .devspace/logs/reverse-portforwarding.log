@@ -2,3 +2,13 @@
 {"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ErrImagePull. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:15:00+01:00"}
 {"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T13:26:31+01:00"}
 {"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ImagePullBackOff. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T13:26:33+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T16:25:04+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ImagePullBackOff. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T16:25:06+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T16:35:12+01:00"}
+{"level":"info","msg":"[0:ports] Warning: DevSpace still couldn't find any Pods that match the selector. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T16:35:24+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T16:37:05+01:00"}
+{"level":"info","msg":"[0:ports] Warning: DevSpace still couldn't find any Pods that match the selector. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T16:37:17+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T20:05:01+01:00"}
+{"level":"info","msg":"[0:ports] Warning: DevSpace still couldn't find any Pods that match the selector. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T20:05:13+01:00"}
+{"level":"info","msg":"[0:ports] Reverse-Port-Forwarding: Waiting for containers to start...","time":"2021-11-16T20:09:49+01:00"}
+{"level":"info","msg":"[0:ports] Warning: Pod development/app-server-7f5bb44875-wq6kc has critical status: ImagePullBackOff. DevSpace will continue waiting, but this operation might timeout","time":"2021-11-16T20:09:51+01:00"}
