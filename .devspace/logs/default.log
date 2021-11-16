@@ -1,0 +1,10 @@
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T10:55:40+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T10:55:40+01:00"}
+{"level":"warning","msg":"invalid reference format","time":"2021-11-16T10:55:40+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T10:55:40+01:00"}
+{"level":"fatal","msg":"create builder: Error creating kaniko builder: create pull secret: invalid reference format","time":"2021-11-16T10:55:40+01:00"}
+{"level":"info","msg":"Using namespace '\u001b[1;37mdevelopment\u001b[0m'","time":"2021-11-16T10:57:11+01:00"}
+{"level":"info","msg":"Using kube context '\u001b[1;37mshopware-k8s-dev-cluster\u001b[0m'","time":"2021-11-16T10:57:11+01:00"}
+{"level":"warning","msg":"invalid reference format","time":"2021-11-16T10:57:11+01:00"}
+{"level":"info","msg":"Couldn't find a running docker daemon. Will fallback to kaniko","time":"2021-11-16T10:57:11+01:00"}
+{"level":"fatal","msg":"create builder: Error creating kaniko builder: create pull secret: invalid reference format","time":"2021-11-16T10:57:11+01:00"}
